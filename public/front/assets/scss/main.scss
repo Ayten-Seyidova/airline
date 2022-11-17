@@ -1,0 +1,108 @@
+$main: #777;
+$back: #f5f5f5;
+$accent: hsl(220, 50%, 40%);
+$sans: "Open Sans", sans-serif;
+$heebo: "Heebo", sans-serif;
+$base: 3vh;
+$time: 1800ms;
+$ease-out: cubic-bezier(0.26, 0.005, 0.135, 1);
+$ease-in-out: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+@import "./header.scss";
+@import "./slider.scss";
+@import "./photoGal.scss";
+@import "./turizm.scss";
+@import "./usefull.scss";
+@import "./news.scss";
+@import "./footer.scss";
+:root {
+	--card-width: 200px;
+	--card-height: 300px;
+
+	--card-transition-duration: 800ms;
+	--card-transition-easing: ease;
+}
+
+body {
+  background: $back;
+  font-family: $sans;
+  overflow-x: hidden;
+ 
+  .search-hide {
+    display: none;
+  }
+  .search-show {
+    z-index: 99999;
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    form {
+      width: 100%;
+
+      .form-group {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+          width: 40%;
+          border: none;
+          padding: 10px;
+          border-radius: 10px;
+          &:focus-visible {
+            outline: none;
+          }
+        }
+        button {
+          padding: 15px;
+          border-radius: 10px;
+          margin-left: 15px;
+          width: 10%;
+        }
+      }
+    }
+  }
+
+  .global-design{
+    margin: 50px;
+    .container{
+        h3{
+            text-align: center;
+            font-size: 28px;
+            font-family: Overpass,sans-serif;
+        }
+        p{
+            font-size: 20px;
+            text-align: justify;
+            line-height: 30px;
+        }
+        ul{
+          li{
+            list-style: disc;
+            font-weight: bold;
+          }
+        }
+        table{
+          tbody{
+            tr{
+              th{
+                font-family: Overpass,sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+              }
+              td{
+                font-family: Roboto,sans-serif;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+footer {
+  margin-top: 80px;
+  background-image: url("../images/footer/footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  padding: 50px 0 100px 0;
+  h4 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0094c8;
+  }
+  a {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff !important;
+    cursor: pointer;
+    &:hover {
+      color: #7780f6 !important;
+    }
+  }
+
+  .footer-contact {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #82b7ff;
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.copy {
+  background: #002d69;
+  p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+    h4 {
+      font-size: 20px;
+      text-align: center;
+    }
+    a {
+      text-align: center;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .footer-contact {
+      font-size: 18px;
+      text-align: center;
+
+    }
+  }
+  .copy {
+    background: #002d69;
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+    h4 {
+      font-size: 26px;
+      text-align: center;
+    }
+    a {
+      text-align: center;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    .footer-contact {
+      font-size: 22px;
+      text-align: center;
+
+    }
+  }
+  .copy {
+    background: #002d69;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  footer {
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+    h4 {
+      font-size: 26px;
+      text-align: center;
+    }
+    a {
+      text-align: center;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    .footer-contact {
+      font-size: 22px;
+      text-align: center;
+
+    }
+  }
+  .copy {
+    background: #002d69;
+    p {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.photoGallery{
+  margin-top: 50px;
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    box-shadow: 0px 4px 20px 12px rgba(0, 0, 0, 0.36);
+border-radius: 12px;
+    // height: 00px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 8px;
+    &:hover{
+    }
+  }
+}
